@@ -1,5 +1,5 @@
-FROM pytorch/pytorch:1.0-cuda10.0-cudnn7-devel
+FROM pytorch/pytorch:1.2-cuda10.0-cudnn7-devel
 
-RUN conda install cython cffi scipy msgpack matplotlib pyyaml tensorboardX torchvision
+RUN pip install cython cffi scipy msgpack matplotlib pyyaml tensorboardX torchvision opencv-python easydict
 
-RUN pip install opencv-python easydict
+
