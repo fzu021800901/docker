@@ -9,5 +9,6 @@ RUN pip install pillow
 RUN pip install matplotlib
 RUN pip install pycocotools
 RUN pip install tensorboard
+RUN pip install opencv-python-headless
 
 
